@@ -17,7 +17,7 @@ And here is your Dock
 How can I get it?
 =======
 
-It can either be done via [Alcatraz](http://alcatraz.io/) or by downloading the [GitHub project](github.com/dvkch/SYXcodeIconVersion) and building `SYXcodeIconVersion.xcodeproj` in Xcode, which will automagically install the plugin.
+It can either be done via [Alcatraz](http://alcatraz.io/) or by downloading the [GitHub project](https://github.com/dvkch/SYXcodeIconVersion/archive/master.zip) and building `SYXcodeIconVersion.xcodeproj` in Xcode, which will automagically install the plugin.
 
 License
 ======
