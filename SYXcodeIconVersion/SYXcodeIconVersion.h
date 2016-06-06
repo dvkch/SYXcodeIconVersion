@@ -8,14 +8,9 @@
 
 #import <AppKit/AppKit.h>
 
-@class SYXcodeIconVersion;
-
-static SYXcodeIconVersion *sharedPlugin;
-
 @interface SYXcodeIconVersion : NSObject
 
 + (instancetype)sharedPlugin;
-- (id)initWithBundle:(NSBundle *)plugin;
 
 @property (nonatomic, strong, readonly) NSBundle* bundle;
 @end

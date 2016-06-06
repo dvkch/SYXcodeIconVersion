@@ -7,81 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		975675AF1C5A994300DAF4F5 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975675AE1C5A994300DAF4F5 /* AppKit.framework */; };
-		975675B11C5A994300DAF4F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975675B01C5A994300DAF4F5 /* Foundation.framework */; };
-		975675B51C5A994300DAF4F5 /* SYXcodeIconVersion.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 975675B41C5A994300DAF4F5 /* SYXcodeIconVersion.xcscheme */; };
-		975675B81C5A994300DAF4F5 /* SYXcodeIconVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 975675B71C5A994300DAF4F5 /* SYXcodeIconVersion.m */; };
-		975675BB1C5A994300DAF4F5 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 975675BA1C5A994300DAF4F5 /* NSObject_Extension.m */; };
+		C2C8110F1D05C624005343C6 /* SYXcodeIconVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = C2C8110E1D05C624005343C6 /* SYXcodeIconVersion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		975675AB1C5A994300DAF4F5 /* SYXcodeIconVersion.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYXcodeIconVersion.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		975675AE1C5A994300DAF4F5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
-		975675B01C5A994300DAF4F5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
-		975675B41C5A994300DAF4F5 /* SYXcodeIconVersion.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SYXcodeIconVersion.xcscheme; path = SYXcodeIconVersion.xcodeproj/xcshareddata/xcschemes/SYXcodeIconVersion.xcscheme; sourceTree = SOURCE_ROOT; };
-		975675B61C5A994300DAF4F5 /* SYXcodeIconVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYXcodeIconVersion.h; sourceTree = "<group>"; };
-		975675B71C5A994300DAF4F5 /* SYXcodeIconVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYXcodeIconVersion.m; sourceTree = "<group>"; };
-		975675B91C5A994300DAF4F5 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
-		975675BA1C5A994300DAF4F5 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
-		975675BC1C5A994300DAF4F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2C811081D05C624005343C6 /* SYXcodeIconVersion.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SYXcodeIconVersion.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C8110C1D05C624005343C6 /* SYXcodeIconVersion.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = SYXcodeIconVersion.xcscheme; path = SYXcodeIconVersion.xcodeproj/xcshareddata/xcschemes/SYXcodeIconVersion.xcscheme; sourceTree = SOURCE_ROOT; };
+		C2C8110D1D05C624005343C6 /* SYXcodeIconVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYXcodeIconVersion.h; sourceTree = "<group>"; };
+		C2C8110E1D05C624005343C6 /* SYXcodeIconVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYXcodeIconVersion.m; sourceTree = "<group>"; };
+		C2C811101D05C624005343C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		975675A91C5A994300DAF4F5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				975675AF1C5A994300DAF4F5 /* AppKit.framework in Frameworks */,
-				975675B11C5A994300DAF4F5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		975675A21C5A994300DAF4F5 = {
+		C2C811001D05C624005343C6 = {
 			isa = PBXGroup;
 			children = (
-				975675B21C5A994300DAF4F5 /* SYXcodeIconVersion */,
-				975675AD1C5A994300DAF4F5 /* Frameworks */,
-				975675AC1C5A994300DAF4F5 /* Products */,
+				C2C8110A1D05C624005343C6 /* SYXcodeIconVersion */,
+				C2C811091D05C624005343C6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		975675AC1C5A994300DAF4F5 /* Products */ = {
+		C2C811091D05C624005343C6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				975675AB1C5A994300DAF4F5 /* SYXcodeIconVersion.xcplugin */,
+				C2C811081D05C624005343C6 /* SYXcodeIconVersion.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		975675AD1C5A994300DAF4F5 /* Frameworks */ = {
+		C2C8110A1D05C624005343C6 /* SYXcodeIconVersion */ = {
 			isa = PBXGroup;
 			children = (
-				975675AE1C5A994300DAF4F5 /* AppKit.framework */,
-				975675B01C5A994300DAF4F5 /* Foundation.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		975675B21C5A994300DAF4F5 /* SYXcodeIconVersion */ = {
-			isa = PBXGroup;
-			children = (
-				975675B61C5A994300DAF4F5 /* SYXcodeIconVersion.h */,
-				975675B71C5A994300DAF4F5 /* SYXcodeIconVersion.m */,
-				975675B91C5A994300DAF4F5 /* NSObject_Extension.h */,
-				975675BA1C5A994300DAF4F5 /* NSObject_Extension.m */,
-				975675BC1C5A994300DAF4F5 /* Info.plist */,
-				975675B31C5A994300DAF4F5 /* Supporting Files */,
+				C2C8110D1D05C624005343C6 /* SYXcodeIconVersion.h */,
+				C2C8110E1D05C624005343C6 /* SYXcodeIconVersion.m */,
+				C2C811101D05C624005343C6 /* Info.plist */,
+				C2C8110B1D05C624005343C6 /* Supporting Files */,
 			);
 			path = SYXcodeIconVersion;
 			sourceTree = "<group>";
 		};
-		975675B31C5A994300DAF4F5 /* Supporting Files */ = {
+		C2C8110B1D05C624005343C6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				975675B41C5A994300DAF4F5 /* SYXcodeIconVersion.xcscheme */,
+				C2C8110C1D05C624005343C6 /* SYXcodeIconVersion.xcscheme */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -89,14 +57,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		975675AA1C5A994300DAF4F5 /* SYXcodeIconVersion */ = {
+		C2C811071D05C624005343C6 /* SYXcodeIconVersion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 975675BF1C5A994300DAF4F5 /* Build configuration list for PBXNativeTarget "SYXcodeIconVersion" */;
+			buildConfigurationList = C2C811131D05C624005343C6 /* Build configuration list for PBXNativeTarget "SYXcodeIconVersion" */;
 			buildPhases = (
-				9771AB421C5A9E5400E2BB20 /* Update supported Xcode versions */,
-				975675A71C5A994300DAF4F5 /* Sources */,
-				975675A81C5A994300DAF4F5 /* Resources */,
-				975675A91C5A994300DAF4F5 /* Frameworks */,
+				C2C811161D05C8D4005343C6 /* Update supported Xcode versions */,
+				C2C811051D05C624005343C6 /* Sources */,
+				C2C811061D05C624005343C6 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -104,53 +71,52 @@
 			);
 			name = SYXcodeIconVersion;
 			productName = SYXcodeIconVersion;
-			productReference = 975675AB1C5A994300DAF4F5 /* SYXcodeIconVersion.xcplugin */;
+			productReference = C2C811081D05C624005343C6 /* SYXcodeIconVersion.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		975675A31C5A994300DAF4F5 /* Project object */ = {
+		C2C811011D05C624005343C6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = Syan;
 				TargetAttributes = {
-					975675AA1C5A994300DAF4F5 = {
-						CreatedOnToolsVersion = 7.0.1;
+					C2C811071D05C624005343C6 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 975675A61C5A994300DAF4F5 /* Build configuration list for PBXProject "SYXcodeIconVersion" */;
+			buildConfigurationList = C2C811041D05C624005343C6 /* Build configuration list for PBXProject "SYXcodeIconVersion" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 975675A21C5A994300DAF4F5;
-			productRefGroup = 975675AC1C5A994300DAF4F5 /* Products */;
+			mainGroup = C2C811001D05C624005343C6;
+			productRefGroup = C2C811091D05C624005343C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				975675AA1C5A994300DAF4F5 /* SYXcodeIconVersion */,
+				C2C811071D05C624005343C6 /* SYXcodeIconVersion */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		975675A81C5A994300DAF4F5 /* Resources */ = {
+		C2C811061D05C624005343C6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				975675B51C5A994300DAF4F5 /* SYXcodeIconVersion.xcscheme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		9771AB421C5A9E5400E2BB20 /* Update supported Xcode versions */ = {
+		C2C811161D05C8D4005343C6 /* Update supported Xcode versions */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -167,22 +133,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		975675A71C5A994300DAF4F5 /* Sources */ = {
+		C2C811051D05C624005343C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				975675B81C5A994300DAF4F5 /* SYXcodeIconVersion.m in Sources */,
-				975675BB1C5A994300DAF4F5 /* NSObject_Extension.m in Sources */,
+				C2C8110F1D05C624005343C6 /* SYXcodeIconVersion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		975675BD1C5A994300DAF4F5 /* Debug */ = {
+		C2C811111D05C624005343C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -214,15 +180,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		975675BE1C5A994300DAF4F5 /* Release */ = {
+		C2C811121D05C624005343C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -248,11 +217,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		975675C01C5A994300DAF4F5 /* Debug */ = {
+		C2C811141D05C624005343C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -260,14 +231,13 @@
 				DSTROOT = "$(HOME)";
 				INFOPLIST_FILE = SYXcodeIconVersion/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = me.syan.SYXcodeIconVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Debug;
 		};
-		975675C11C5A994300DAF4F5 /* Release */ = {
+		C2C811151D05C624005343C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -275,7 +245,6 @@
 				DSTROOT = "$(HOME)";
 				INFOPLIST_FILE = SYXcodeIconVersion/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = me.syan.SYXcodeIconVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xcplugin;
@@ -285,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		975675A61C5A994300DAF4F5 /* Build configuration list for PBXProject "SYXcodeIconVersion" */ = {
+		C2C811041D05C624005343C6 /* Build configuration list for PBXProject "SYXcodeIconVersion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				975675BD1C5A994300DAF4F5 /* Debug */,
-				975675BE1C5A994300DAF4F5 /* Release */,
+				C2C811111D05C624005343C6 /* Debug */,
+				C2C811121D05C624005343C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		975675BF1C5A994300DAF4F5 /* Build configuration list for PBXNativeTarget "SYXcodeIconVersion" */ = {
+		C2C811131D05C624005343C6 /* Build configuration list for PBXNativeTarget "SYXcodeIconVersion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				975675C01C5A994300DAF4F5 /* Debug */,
-				975675C11C5A994300DAF4F5 /* Release */,
+				C2C811141D05C624005343C6 /* Debug */,
+				C2C811151D05C624005343C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 975675A31C5A994300DAF4F5 /* Project object */;
+	rootObject = C2C811011D05C624005343C6 /* Project object */;
 }
