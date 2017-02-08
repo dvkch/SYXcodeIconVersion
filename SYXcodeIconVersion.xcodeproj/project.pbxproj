@@ -231,6 +231,7 @@
 				DSTROOT = "$(HOME)";
 				INFOPLIST_FILE = SYXcodeIconVersion/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACH_O_TYPE = mh_bundle;
 				PRODUCT_BUNDLE_IDENTIFIER = me.syan.SYXcodeIconVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xcplugin;
@@ -245,6 +246,7 @@
 				DSTROOT = "$(HOME)";
 				INFOPLIST_FILE = SYXcodeIconVersion/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACH_O_TYPE = mh_bundle;
 				PRODUCT_BUNDLE_IDENTIFIER = me.syan.SYXcodeIconVersion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xcplugin;
