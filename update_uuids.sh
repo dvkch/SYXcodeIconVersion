@@ -38,4 +38,4 @@ for UUID in "${UUIDs[@]}"; do
     defaults write $DEST DVTPlugInCompatibilityUUIDs -array-add $UUID
 done
 
-plutil -convert xml1 $DEST
+plutil -convert xml1 -i $DEST -o $DEST
