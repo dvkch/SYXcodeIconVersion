@@ -3,6 +3,16 @@ Xcode Icon Version
 
 Tired of this Xcode icon always showing multiple times in your App Switch with no help watshoever as to which version you are currently using? Well, no more !
 
+
+Deprecated
+==========
+
+Since Xcode 8 and its new extension system + code signing this plugin stopped working and I don't plan on fixing it :) 
+
+Read the code, share it, update it, fork it, it's all yours now. 
+
+Don't open an issue asking how to repair it, there are some blog posts on how to disable Xcode codesigning and reenable plugin managers like Alcatraz.
+
 How does it look?
 ====
 
